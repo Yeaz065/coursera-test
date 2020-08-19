@@ -9,6 +9,7 @@ body{
     align-content: center;
     background: #e3edf7;
     max-height: fit-content;
+    max-width: fit-content;
 }
 .contain{
     display: block;
