@@ -9,7 +9,10 @@ body{
     align-content: center;
     background: #e3edf7;
 }
-
+.container{
+    justify-content: center;
+    margin: 10px auto;
+}
 .container .contain{
     display: block;
     justify-content: center;
@@ -30,6 +33,7 @@ img{
 .biodata{
     padding: 5%;
     text-transform: unset;
+    text-size = 10em;
     font-weight: 600;
     color: #fff;
 }
