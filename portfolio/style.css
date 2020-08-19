@@ -8,8 +8,8 @@ body{
     justify-content: center;
     align-content: center;
     background: #e3edf7;
-    max-height: fit-content;
-    max-width: fit-content;
+    min-height: fit-content;
+    min-width: fit-content;
 }
 .contain{
     display: block;
