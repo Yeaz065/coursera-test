@@ -8,34 +8,37 @@ body{
     justify-content: center;
     align-content: center;
     background: #e3edf7;
+    max-height: fit-content;
 }
-.container{
+.contain{
+    display: block;
     justify-content: center;
-    margin: 10px auto;
+    padding: 10px auto;
 }
+
 .container .contain{
     display: block;
     justify-content: center;
     margin: 40px auto;
-    height: 640px;
-    width: 450px;
+    height: 700px;
+    width: 500px;
     text-align: justify;
     background: #091921;
-    border-radius: 20%;
+    border-radius: 4%;
     transition= 0.5s;
 }
 img{
     height: 250px;
     width: 250px;
-    border-radius: 10%;
-    margin: 20px 0 0 100px;
+    border-radius: 50%;
+    margin: 20px 0 0 120px;
 }
 .biodata{
     padding: 5%;
     text-transform: unset;
-    text-size = 10em;
     font-weight: 600;
     color: #fff;
+    font-size: 1.1em;
 }
 .contain:hover{
     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
@@ -56,6 +59,7 @@ h1{
     color: #555;
     text-align: center;
     align-content: center;
+    padding: 10px 0 0 0;
 }
 .social-media{
     display: flex;
